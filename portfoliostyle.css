@@ -1,9 +1,10 @@
+/*NAVBAR*/
 .navbar-default {
   background-color: #326ada;
   background-image: none;
   background-repeat: no-repeat;
  }
-.nav.navbar-nav.navbar-right>li>a, .navbar>.container>a.navbar-brand{
+.nav.navbar-nav.navbar-right>li>a, .navbar>.container>.row>.col-xs-1>a.navbar-brand{
 	color: #fff;
 }
 

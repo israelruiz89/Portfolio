@@ -15,29 +15,54 @@
 <div class= "navbar navbar-default navbar-fixed-top">
   <!--So everything stays within the 'container'-->
   <div class = "container">
-    <!-- navbar-brand gives the name of the site-->
-    <a href="#" class = "navbar-brand">My Site</a>
+
+    <div class= "row">
+      <div class = "col-xs-1 col-md-3">
+
+        <!-- navbar-brand gives the name of the site-->
+        <a href="#" class = "navbar-brand">My</a>
+
+      </div><!--End first column-->
+
     
-    <!-- Targets .navHeaderCollapse-->
-    <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
-      <span class = "icon-bar"></span>
-      <span class = "icon-bar"></span>
-      <span class = "icon-bar"></span>
-    </button>
-    
-    <!--First two for collapsing and the last one to reference the button-->
-    <div class = "collapse navbar-collapse navHeaderCollapse">
-      
-      <!--First two give styling the next one aligns-->
-      <ul class = "nav navbar-nav navbar-right">
+      <!-- Targets .navHeaderCollapse-->
+      <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+        <span class = "icon-bar"></span>
+        <span class = "icon-bar"></span>
+        <span class = "icon-bar"></span>
+      </button>
         
-        <li><a href="#">LinkedIn</a></li>
-        <li><a href="#">Github</a></li>
-        <li><a href="#">Somehthing</a></li>
-        
-      </ul>
+        <!--First two for collapsing and the last one to reference the button-->
+      <div class = "collapse navbar-collapse navHeaderCollapse">
+
+
+        <!--Start second column-->
+        <div class = "col-md-4">
+          
+          <!--First two give styling the next one aligns-->
+          <ul class = "nav navbar-nav navbar-right">
+              
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Somehthing</a></li>
+              
+          </ul>
+        </div>
+
+        <!--Start third column-->
+        <div class = "col-md-4 pull-right">
+
+          <!--First two give styling the next one aligns-->
+          <ul class = "nav navbar-nav navbar-right">
+              
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Linkedin</a></li>
+              
+          </ul>
+        </div>
       
     </div><!--End navbar-collapse-->
+    </div><!--Row end-->
   </div><!--End container-->
 </div> <!--End navbar-->
 </body>

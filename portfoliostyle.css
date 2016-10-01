@@ -1,0 +1,22 @@
+.navbar-default {
+  background-color: #326ada;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+.nav.navbar-nav.navbar-right>li>a, .navbar>.container>a.navbar-brand{
+	color: #fff;
+}
+
+a:hover, .nav.navbar-nav>li>a:hover{
+	background-color: #000;
+}
+
+.navbar-toggle{
+	background-color: #a19c9c;
+	border-color: #d2d2d2;
+}
+
+
+
+
+

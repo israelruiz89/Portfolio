@@ -1,7 +1,7 @@
 
-/******************************/
+
 /***********Navbar*************/
-/******************************/
+
 .navbar-default {
   background-color: #5bc0de;
   border-color: #326ada;
@@ -25,9 +25,8 @@ a:hover, .nav.navbar-nav>li>a:hover{
 	margin-right: -30px;
 }
 
-/******************************/
+
 /***********About*************/
-/******************************/
 
 .jumbotron.about-section{
 	background-color: #428bca;
@@ -56,6 +55,29 @@ p {
     display:table;
 }
 
-p.overline {
-    text-decoration: overline;
+/**Projects-Section**/
+.jumbotron.projects-section, .jumbotron.skills-section{
+    background-color: #fff;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+h1.text-center {
+    color: #428bca;
+}
+
+.row>.col-xs-6.col-md-4{
+    text-align: center;
+}
+
+.row>.col-xs-6.col-md-4.left-one{
+    
+}
+
+.row>.col-xs-6.col-md-4.center-one{
+    
+}
+
+.row>.col-xs-6.col-md-4.right-one{
+    
 }
